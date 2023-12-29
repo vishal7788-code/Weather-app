@@ -385,7 +385,7 @@ body {
         align-items: center;
         justify-content: space-evenly;
         position: relative;
-        top: 28vw;
+        top: -7vw;
     }
 
     .search input {
@@ -410,12 +410,14 @@ body {
 
     .weather{
         position: relative;
-        top: 2vw;
+        bottom: 25vw;
+        
     }
     .weather .weather-img {
-        width: 25vw;
+        width: 35vw;
         position: relative;
-        height: 25vw;
+        height: 35vw;
+        bottom: 2vw;
     }
 
     .weather h1 {
@@ -431,7 +433,10 @@ body {
         position: relative;
         bottom: 4vw;
     }
-
+.weather .details{
+    position:relative;
+top: 11vw;
+}
     .weather .details img {
 
         width: 5vw;
@@ -442,17 +447,18 @@ body {
 
     .weather .details .humid-1,
     .wind-1 {
-        font-size: 2.5vw;
+        font-size: 3vw;
         position: relative;
-        bottom: 7vw;
+        top: 1vw;
+        right: 5vw;
     }
 
     .weather .details .humid-2,
     .wind-2 {
-        font-size: 1.0vw;
-        position: relative;
-        bottom: 7.5vw;
-       
+       font-size: 1.5vw;
+    position: relative;
+    top: 1vw;
+    right: 5vw;
     }
 
 

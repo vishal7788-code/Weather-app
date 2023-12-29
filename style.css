@@ -407,7 +407,9 @@ body {
         bottom: 25vw;
         right: 5vw;
     }
-
+    .error{
+    font-size: 3.5vw;
+}
     .weather{
         position: relative;
         bottom: 15vw;

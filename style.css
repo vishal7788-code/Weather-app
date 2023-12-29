@@ -129,14 +129,13 @@ body {
         align-items: center;
         justify-content: space-evenly;
         position: relative;
-        top: 5vw;
+        bottom: 20vw;
     }
 
     .search input {
         width: 50%;
         height: 7vw;
         position: relative;
-        bottom: 25vw;
         left: 5vw;
     }
 
@@ -144,7 +143,6 @@ body {
         width: 15%;
         height: 7vw;
         position: relative;
-        bottom: 25vw;
         right: 5vw;
     }
 
@@ -178,15 +176,17 @@ body {
     .weather .details .humid-1,
     .wind-1 {
         font-size: 3.5vw;
-        bottom: 9vw;
+        bottom: 11vw;
+        right: 1vw;
         position: relative;
     }
     
     .weather .details .humid-2,
     .wind-2 {
-        font-size: 1.0vw;
+        font-size: 1.5vw;
         position: relative;
-        bottom: 9vw;
+        bottom: 11vw;
+        right: 1vw;
     }
     
  
